@@ -10,6 +10,7 @@ $ham.addEventListener("click", () => {
   $header.classList.toggle("on");
 });
 
+// 배열 돌아다니면서 add, remove 진행
 $tap_key.forEach((btn, idx) => {
   btn.addEventListener("click", function () {
     $tap_key.forEach((i) => {

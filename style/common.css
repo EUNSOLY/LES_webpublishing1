@@ -657,18 +657,8 @@ img {
     padding-bottom: 0;
   }
   .footer_icon {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer_icon a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0.5rem;
-  }
-  .footer_icon a > div {
-    width: 35px;
+    padding-top: 2rem;
+    align-self: flex-start;
   }
 }
 @media (max-width: 420px) {
@@ -682,6 +672,36 @@ img {
     font-size: 2rem;
   }
   .slogan_txt {
+    font-size: 0.75rem;
+  }
+  .footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    align-items: center;
+  }
+  .footer_content {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .footer_icon a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+  .footer_icon a > div {
+    width: 20px;
+  }
+  .footer_icon a > div img {
+    width: 100%;
+  }
+  .footer_icon p {
     font-size: 0.75rem;
   }
 }
